@@ -12,3 +12,10 @@ void stringManipulation(String input) {
   print("Reversed: ${reverseString(input)}");
   print("Length: ${input.length}");
 }
+
+void main() {
+  //Input string to manipulate
+  String input = "Dart";
+
+  //Calling the stringManipulation function with the input string
+}
