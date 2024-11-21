@@ -7,8 +7,15 @@ void fileHandling() async {
    await writeFile.writeAsString('Dart File Handling Example\n');
 
    //Reading from a file
-   File readFile = File('output.txt');
-   string content = await readFile.readAsString();
+   File readFile = File('Questions.txt');
+   String content = await readFile.readAsString();
    print("File Content: $content");
+  } catch (e) {
+    print("Error during file operation: $e");
   }
+}
+
+void main(){
+  //Calling the fileHandling function
+  fileHandling();
 }
