@@ -27,4 +27,10 @@ void demonstrateCollections() {
   set.add('Programming');
   set.add('Dart');//Duplicate wont be added
   print("Set: $set");
+
+  //Map
+  Map<String, String> map = {'language': 'Dart', 'framework': 'Flutter'};
+  map['IDE'] = 'Visual Studio code';
+  map.remove('framework');
+  print("Map: $map");
 }
