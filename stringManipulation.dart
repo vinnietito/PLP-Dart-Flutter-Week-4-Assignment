@@ -8,5 +8,6 @@ void stringManipulation(String input) {
   print("Original Name: $input");
   print("Concatenated: ${input + ' is learning Dart!'}");
   print("Interpolated: 'Hello, $input! Welcome to the world of programming!'");
-  print("Substring(0-4)")
+  print("Substring(0-4): ${input.substring(0, 3)}");
+  print("Uppercase: ${input.toUpperCase()}");
 }
