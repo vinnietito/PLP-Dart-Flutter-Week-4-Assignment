@@ -8,5 +8,7 @@ void fileHandling() async {
 
    //Reading from a file
    File readFile = File('output.txt');
+   string content = await readFile.readAsString();
+   print("File Content: $content");
   }
 }
