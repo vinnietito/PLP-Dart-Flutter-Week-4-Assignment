@@ -14,3 +14,15 @@ void stringManipulation(String input) {
   print("Reversed: ${reverseString(input)}");
   print("Length: ${input.length}");
 }
+
+void demonstrateCollections() {
+  //List
+  List<String> list = ['Dart', 'Flutter', 'Programming'];
+  list.add('OpenAI');
+  list.remove('Programming');
+  print("List: $list");
+
+  //Set
+  Set<String> set = {'Dart', 'Flutter'};
+  set.add('Programming');
+}
