@@ -10,4 +10,7 @@ void stringManipulation(String input) {
   print("Interpolated: 'Hello, $input! Welcome to the world of programming!'");
   print("Substring(0-4): ${input.substring(0, 3)}");
   print("Uppercase: ${input.toUpperCase()}");
+  print("Lowercase: ${input.toLowerCase()}");
+  print("Reversed: ${reverseString(input)}");
+  print("Length: ${input.length}");
 }
