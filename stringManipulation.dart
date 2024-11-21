@@ -7,4 +7,6 @@ String reverseString(String input) {
 void stringManipulation(String input) {
   print("Original Name: $input");
   print("Concatenated: ${input + ' is learning Dart!'}");
+  print("Interpolated: 'Hello, $input! Welcome to the world of programming!'");
+  print("Substring(0-4)")
 }
