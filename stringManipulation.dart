@@ -1,10 +1,3 @@
-void main() {
-  // Input string to manipulate
-  String input = "Dart";
-
-  // Calling the stringManipulation function with the input string
-  stringManipulation(input);
-}
 
 String reverseString(String input) {
   return input.split('').reversed.join('');
@@ -19,4 +12,12 @@ void stringManipulation(String input) {
   print("Lowercase: ${input.toLowerCase()}");
   print("Reversed: ${reverseString(input)}");
   print("Length: ${input.length}");
+}
+
+void main() {
+  // Input string to manipulate
+  String input = "Dart";
+
+  // Calling the stringManipulation function with the input string
+  stringManipulation(input);
 }
