@@ -15,7 +15,8 @@ void stringManipulation(String input) {
 
 void main() {
   //Input string to manipulate
-  String input = "Dart";
+  String input = "Vincent";
 
   //Calling the stringManipulation function with the input string
+  stringManipulation(input);
 }
