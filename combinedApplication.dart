@@ -25,4 +25,6 @@ void demonstrateCollections() {
   //Set
   Set<String> set = {'Dart', 'Flutter'};
   set.add('Programming');
+  set.add('Dart');//Duplicate wont be added
+  print("Set: $set");
 }
