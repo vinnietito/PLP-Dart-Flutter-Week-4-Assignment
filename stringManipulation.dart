@@ -7,4 +7,8 @@ void stringManipulation(String input) {
   print("Concatenated: ${input + ' Dart is awesome!'}");
   print("Interpolated: 'Welcome to $input programming!'");
   print("Substring (0-4): ${input.substring(0, 4)}");
+  print("Uppercase: ${input.toUpperCase()}");
+  print("Lowercase: ${input.toLowerCase()}");
+  print("Reversed: ${reverseString(input)}");
+  print("Length: ${input.length}");
 }
